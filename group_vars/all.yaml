@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb.theawsdevops.space
+REDIS_HOST: redis.theawsdevops.space
+MYSQL_HOST: mysql.theawsdevops.space
+RABBITMQ_HOST: rabbitmq.theawsdevops.space
+CATALOGUE_HOST: catalogue.theawsdevops.space
+USER_HOST: user.theawsdevops.space
+CART_HOST: cart.theawsdevops.space
+SHIPPING_HOST: shipping.theawsdevops.space
+PAYMENT_HOST: payment.theawsdevops.space
