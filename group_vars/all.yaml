@@ -2,8 +2,8 @@ MONGODB_HOST: mongodb-{{ env }}.theawsdevops.space
 REDIS_HOST: redis-{{ env }}.theawsdevops.space
 MYSQL_HOST: mysql-{{ env }}.theawsdevops.space
 RABBITMQ_HOST: rabbitmq-{{ env }}.theawsdevops.space
-CATALOGUE_HOST: catalogue-{{ env }}.theawsdevops.space
-USER_HOST: user-{{ env }}.theawsdevops.space
-CART_HOST: cart-{{ env }}.theawsdevops.space
-SHIPPING_HOST: shipping-{{ env }}.theawsdevops.space
-PAYMENT_HOST: payment-{{ env }}.theawsdevops.space
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.theawsdevops.space
+USER_HOST: user.backend-alb-{{ env }}.theawsdevops.space
+CART_HOST: cart.backend-alb-{{ env }}.theawsdevops.space
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.theawsdevops.space
+PAYMENT_HOST: payment.backend-alb-{{ env }}.theawsdevops.space
